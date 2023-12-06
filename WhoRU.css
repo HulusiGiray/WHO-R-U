@@ -9,38 +9,26 @@ a.slm {
     border-color: whitesmoke;
 }
 
-
-img {
+a#sonyazi {
     position: absolute;
-    left: 8px;
-    top: 750px;
-}
-
-#fotometa {
-    position : absolute;
-    left: 210px;
-    top: 820px;
-}
-
-a#son {
-    position: absolute;
-    left: 73px;
-    top: 995px;
+    left: 1%;
+    top: 90%;
 }
 
 textarea {
-    min-width: 500px;
-    min-height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    min-width: 300px;
+    min-height: 200px;
 }
 
 .button1 {
-    margin:0 auto 0 auto;
-    text-align:center;
+    position: absolute;
+    text-align:left;
 }
 
-p.copyright {
-    text-align:center;
+div#son::after {
+    content:"Copyright©2023 My Portfolio";
+    color: black;
+                                                    }
+#son {
+    text-align: center;
 }

@@ -6,8 +6,14 @@ p#id1 {
      font-weight: bolder;
 }
 
-p.copyright {
+#son::after {
+    content: "Copyright©2023 My Portfolio";
+    color: black;
+
+}
+
+#son {
     position: absolute;
-      left: 235px;
-      top: 600px;
+    top: 97%;
+    left: calc(50% - 101px);
 }
